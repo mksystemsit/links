@@ -4,7 +4,7 @@ const bioData = [
         name: 'MK Systems',
         // username: 'mksystemsit',
         url: 'https://mksystems.au',
-        titleImg: true,
+        titleImg: false,
         avatar: '/icon_400x400.png',
         nftAvatar: true,
         description: 'Consolidate. Automate. Dominate.',
@@ -14,7 +14,7 @@ const bioData = [
         newProductUrl: 'https://3dicons.co',
         newProduct: false,
         author: 'MK Systems',
-        authorURL: 'https://twitter.com/realvjy',
+        authorURL: 'https://twitter.com/mksystemsit',
         footerText: 'made by'
     },
 ];
