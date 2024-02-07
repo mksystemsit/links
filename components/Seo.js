@@ -25,11 +25,11 @@ export default function Seo({ page }) {
                             alt: `${title}`,
                         },
                     ],
-                    site_name: 'vjy.me',
+                    site_name: 'links.mksystems.au',
                 }}
                 twitter={{
-                    handle: '@realvjy',
-                    site: 'vjy.me',
+                    handle: '@mksystemsit',
+                    site: 'links.mksystems.au',
                     cardType: 'summary_large_image',
                 }}
                 additionalMetaTags={[{
