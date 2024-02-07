@@ -1,24 +1,24 @@
 export default {
     openGraph: {
         type: 'website',
-        locale: 'en_IE',
+        locale: 'en_AU',
         title: 'next lnks by realvjy',
-        url: 'https://vjy.me',
-        description: 'Custom bio links for creatives who love coding. Made this first to use for my own weblinks vjy.me/lnk.',
+        url: 'https://mksystems.au',
+        description: 'We create conduits for passion, purpose and profit for our clients by consolidating their tech and automating their processes, so they can dominate their market space.',
         locale: 'en_EN',
-        keywords: 'designer, product designer, illustrator, indian designer, vijay verma, realvjy, illlustrations, indian illustrator, ui designer india, sushi design system, zomato designer, 3dicons, uiprint, vijay realvjy, indian ui designer, design india, overlayz, nft art',
+        keywords: 'cybersecurity, cyber security, australia cybersecurity, brisbane cybersecurity, cairns cybersecurity, cairns it support, brisbane it support, brisbane it risk, essential eight, nq it support, nq cybersecurity, fnq cybersecurity, fnq it security, cairns it security, brisbane it security',
         images: [
             {
                 width: 1200,
                 height: 630,
-                url: `https://vjy.me/preview.jpg`,
+                url: `https://links.mksystems.au/preview.jpg`,
             },
         ],
         site_name: 'realvjy',
     },
     twitter: {
-        handle: '@realvjy',
-        site: 'vjy.me',
+        handle: '@mksystemsit',
+        site: 'mksystems.au',
         cardType: 'summary_large_image',
     },
 };
