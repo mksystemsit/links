@@ -50,7 +50,7 @@ const Links = () => {
   });
 
   // Get data for link section
-  const link = allLinks.filter((el) => {
+  const links = allLinks.filter((el) => {
     return el.type === "link" && el.on
   });
 
@@ -124,11 +124,11 @@ const Links = () => {
 
               {/* Link Section */}
               {
-                link.length > 0 ?
+                links.length > 0 ?
                     <LinkSection>
-                      <h3>{link[0].type}</h3>
+                      <h3>{links[0].type}</h3>
                       {
-                        link.map((i) => {
+                        links.map((i) => {
                           return (
                               <a href={i.url} key={i.title} target="_blank" rel="noreferrer">
                                 <LinkBox>
@@ -140,7 +140,7 @@ const Links = () => {
                       }
                     </LinkSection> : ''
               }
-              {/* End Link Section */}
+              {/* End Links Section */}
 
               {/* NFT Section */}
               {
