@@ -51,6 +51,12 @@ const webLinks = [
         on: false
     },
     {
+        title: 'TikTok',
+        url: 'https://tiktok.com/mksystemsit',
+        type: 'social',
+        on: true
+    },
+    {
         title: 'Figma',
         url: 'https://figma.com/@mksystemsit',
         type: 'social',
@@ -113,19 +119,19 @@ const webLinks = [
         icon: '/opensea.svg',
         on: false
     },
-    // Install section
+    // Link section
     {
-        title: 'Use this template',
-        url: 'https://github.com/mksystemsit/nxt-lnk/generate',
-        type: 'install',
-        icon: '/use.png',
+        title: 'Visit our website',
+        url: 'https://mksystems.au',
+        type: 'link',
+        icon: '/web.svg',
         on: true
     },
     {
-        title: 'Deploy on Vercel',
-        url: 'https://vercel.com/import/git?s=https://github.com/mksystemsit/nxt-lnk',
-        type: 'install',
-        icon: '/vercel.svg',
+        title: "Rent Rio's Brain",
+        url: 'https://cal.mksystems.au/rio',
+        type: 'link',
+        icon: '/use.svg',
         on: true
     },
     {
@@ -133,14 +139,14 @@ const webLinks = [
         url: 'https://github.com/mksystemsit/nxt-lnk#nxt-lnk',
         type: 'install',
         icon: '/doc.png',
-        on: true
+        on: false
     },
     {
         title: 'Github',
-        url: 'https://github.com/mksystemsit/nxt-lnk',
+        url: 'https://github.com/mksystemsit/links',
         type: 'install',
         icon: '/github-fill.svg',
-        on: true
+        on: false
     },
 
     {
@@ -148,7 +154,7 @@ const webLinks = [
         url: 'https://www.buymeacoffee.com/mksystemsit',
         type: 'other',
         icon: '/bmc.png',
-        on: true
+        on: false
     },
 
     {
@@ -156,7 +162,7 @@ const webLinks = [
         url: 'https://vjy.me/lnk',
         type: 'other',
         icon: '/vjy.png',
-        on: true
+        on: false
     },
 
     {
@@ -164,7 +170,7 @@ const webLinks = [
         url: 'https://vjy.me',
         type: 'other',
         icon: '/vjy.png',
-        on: true
+        on: false
     },
 ];
 
