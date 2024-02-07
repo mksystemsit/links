@@ -54,6 +54,7 @@ const webLinks = [
         title: 'TikTok',
         url: 'https://tiktok.com/mksystemsit',
         type: 'social',
+        icon: '/tiktok.svg',
         on: true
     },
     {
