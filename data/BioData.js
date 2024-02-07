@@ -5,7 +5,7 @@ const bioData = [
         username: 'mksystemsit',
         url: 'https://mksystems.au',
         titleImg: true,
-        avatar: '/avatar.png',
+        avatar: '/icon_400x400.png',
         nftAvatar: true,
         description: 'Consolidate | Automate | Dominate',
         descShow: true,
