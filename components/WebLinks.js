@@ -49,7 +49,7 @@ const Links = () => {
     return el.type === "social" && el.on
   });
 
-  // Get data for install section
+  // Get data for link section
   const link = allLinks.filter((el) => {
     return el.type === "link" && el.on
   });
@@ -122,9 +122,9 @@ const Links = () => {
               </LinkSection>
               {/* Social Icon */}
 
-              {/* Install Section */}
+              {/* Link Section */}
               {
-                install.length > 0 ?
+                link.length > 0 ?
                     <LinkSection>
                       <h3>{link[0].type}</h3>
                       {
@@ -140,7 +140,7 @@ const Links = () => {
                       }
                     </LinkSection> : ''
               }
-              {/* End Install Section */}
+              {/* End Link Section */}
 
               {/* NFT Section */}
               {
