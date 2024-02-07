@@ -137,14 +137,14 @@ const webLinks = [
     {
         title: 'Documentation',
         url: 'https://github.com/mksystemsit/nxt-lnk#nxt-lnk',
-        type: 'install',
+        type: 'link',
         icon: '/doc.png',
         on: false
     },
     {
         title: 'Github',
         url: 'https://github.com/mksystemsit/links',
-        type: 'install',
+        type: 'link',
         icon: '/github-fill.svg',
         on: false
     },

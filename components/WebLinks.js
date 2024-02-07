@@ -50,8 +50,8 @@ const Links = () => {
   });
 
   // Get data for install section
-  const install = allLinks.filter((el) => {
-    return el.type === "install" && el.on
+  const link = allLinks.filter((el) => {
+    return el.type === "link" && el.on
   });
 
   // Get data for nfts
@@ -126,9 +126,9 @@ const Links = () => {
               {
                 install.length > 0 ?
                     <LinkSection>
-                      <h3>{install[0].type}</h3>
+                      <h3>{link[0].type}</h3>
                       {
-                        install.map((i) => {
+                        link.map((i) => {
                           return (
                               <a href={i.url} key={i.title} target="_blank" rel="noreferrer">
                                 <LinkBox>
