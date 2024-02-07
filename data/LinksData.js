@@ -132,7 +132,7 @@ const webLinks = [
         title: "Rent Rio's Brain",
         url: 'https://cal.mksystems.au/rio',
         type: 'link',
-        icon: '/use.svg',
+        icon: '/use.png',
         on: true
     },
     {

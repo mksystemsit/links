@@ -7,7 +7,7 @@ const bioData = [
         titleImg: true,
         avatar: '/icon_400x400.png',
         nftAvatar: true,
-        description: 'Consolidate | Automate | Dominate',
+        description: 'Consolidate. Automate. Dominate.',
         descShow: true,
         subdesc: 'We create conduits for passion, purpose and profit for our clients by consolidating their tech and automating their processes, so they can dominate their market space.',
         subdescShow: true,
